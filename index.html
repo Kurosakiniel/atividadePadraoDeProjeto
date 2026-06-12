@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Chamados</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Mini Sistema de Chamados</h1>
+</header>
+
+<main>
+
+    <section class="card">
+        <h2>Abrir Chamado</h2>
+
+        <input
+            type="text"
+            id="titulo"
+            placeholder="Título"
+        >
+
+        <textarea
+            id="descricao"
+            placeholder="Descrição"
+        ></textarea>
+
+        <select id="prioridade">
+            <option value="Baixa">Baixa</option>
+            <option value="Média">Média</option>
+            <option value="Alta">Alta</option>
+        </select>
+
+        <button id="btnAbrir">
+            Abrir Chamado
+        </button>
+    </section>
+
+    <section class="card">
+        <h2>Chamados</h2>
+
+        <div id="listaChamados"></div>
+    </section>
+
+    <section class="card">
+        <h2>Histórico</h2>
+
+        <div id="historico"></div>
+    </section>
+
+</main>
+
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
