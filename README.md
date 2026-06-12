@@ -154,9 +154,3 @@ chamados/
 O sistema será aberto no navegador.
 
 ---
-
-## Autor
-
-Daniel Silva
-
-Atividade MAP - Padrões de Projeto
